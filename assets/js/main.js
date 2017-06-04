@@ -1,0 +1,1 @@
+//La idea es q aparezca el nav transp y mediante una funcion event onscroll aparece el nav con .hidden//
