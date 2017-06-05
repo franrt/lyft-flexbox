@@ -112,3 +112,31 @@ p {
     font-size: 0.8em;
     font-weight: 300;
 }
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+}
+
+.foot1,
+.foot2,
+.foot3 {
+    display: flex;
+    font-size: 0.8em;
+    color: whitesmoke;
+    text-decoration: none;
+    flex-direction: column;
+}
+
+.apps {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0;
+    width: 160px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
