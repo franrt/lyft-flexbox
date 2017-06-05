@@ -1,3 +1,9 @@
+* {
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     background: #2B1E66;
@@ -35,7 +41,6 @@ a {
 .btnOne {
     color: whitesmoke;
     border: 2px solid whitesmoke;
-    background: #2B1E66;
     padding: 11px 30px;
     margin-right: 200px;
     border-radius: 5px;
@@ -59,30 +64,47 @@ a {
 }
 
 .infoUno {
+    display: flex;
     flex-direction: row;
-    color: whitesmoke;
     position: relative;
+    top: 120px;
 }
 
-.texto {
-    flex-direction: column;
+.text {
+    color: whitesmoke;
+    padding-left: 40px;
+}
+
+#phone {
+    height: 80%;
+}
+
+.video {
+    align-items: stretch;
 }
 
 #videos {
     flex-direction: row;
-    padding: 20px;
-    top: 100px;
     width: 100%;
     position: relative;
-    color: whitesmoke;
+    color: #000000;
+    background-color: white;
+}
+
+.sect1,
+.sect2,
+.sect3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .info {
     flex-direction: column;
-    padding: 20px;
+    padding: 40px;
 }
 
-#videos p {
+p {
     font-size: 0.8em;
     font-weight: 300;
 }
