@@ -63,9 +63,22 @@ a:hover {
     color: #fa00e7;
 }
 
-#btnOne {
+.btnOne {
     color: whitesmoke;
     border: 2px solid whitesmoke;
+    padding: 11px 30px;
+    margin-right: 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+/*nuevo estilo para cuando hay scroll down*/
+
+.btnUno {
+    color: #fa00e7;
+    border: 2px solid #fa00e7;
     padding: 11px 30px;
     margin-right: 20px;
     border-radius: 5px;
